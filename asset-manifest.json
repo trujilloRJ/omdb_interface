@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/omdb_interface/static/css/main.6c9d78d5.chunk.css",
+    "main.js": "/omdb_interface/static/js/main.9320be5b.chunk.js",
+    "main.js.map": "/omdb_interface/static/js/main.9320be5b.chunk.js.map",
+    "runtime-main.js": "/omdb_interface/static/js/runtime-main.79200c7a.js",
+    "runtime-main.js.map": "/omdb_interface/static/js/runtime-main.79200c7a.js.map",
+    "static/js/2.e1641b91.chunk.js": "/omdb_interface/static/js/2.e1641b91.chunk.js",
+    "static/js/2.e1641b91.chunk.js.map": "/omdb_interface/static/js/2.e1641b91.chunk.js.map",
+    "index.html": "/omdb_interface/index.html",
+    "precache-manifest.1ca26d5ace98f644a2088667237167a9.js": "/omdb_interface/precache-manifest.1ca26d5ace98f644a2088667237167a9.js",
+    "service-worker.js": "/omdb_interface/service-worker.js",
+    "static/css/main.6c9d78d5.chunk.css.map": "/omdb_interface/static/css/main.6c9d78d5.chunk.css.map",
+    "static/js/2.e1641b91.chunk.js.LICENSE.txt": "/omdb_interface/static/js/2.e1641b91.chunk.js.LICENSE.txt",
+    "static/media/Movie.scss": "/omdb_interface/static/media/rotten_tomatoes.325ad745.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79200c7a.js",
+    "static/js/2.e1641b91.chunk.js",
+    "static/css/main.6c9d78d5.chunk.css",
+    "static/js/main.9320be5b.chunk.js"
+  ]
+}
