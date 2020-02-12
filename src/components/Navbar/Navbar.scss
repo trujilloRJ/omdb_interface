@@ -1,0 +1,22 @@
+@import "../../config";
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #333;
+  } @else {
+    @return white;
+  }
+}
+
+.nav {
+  background: $primary-color;
+  color: set-text-color($primary-color);
+
+  &__container {
+    padding: 0.5rem 1rem;
+    width: 90%;
+    max-width: $max-width;
+    min-width: $min-width;
+    margin: auto;
+  }
+}

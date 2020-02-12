@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+@import "../../config";
+
+.results {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  gap: 1rem;
+  padding: 1rem;
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    &__dir {
+      font-size: $fs-small;
+    }
+    &__data {
+      margin-top: 0.5rem;
+    }
+    &__plot {
+      margin-top: 1rem;
+      width: 80%;
+      font-family: "Lora", serif;
+      font-style: italic;
+    }
+    &__rating {
+      margin-top: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.rating__card {
+  &__icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    &.i0 {
+      background: url("../../img/imdb.png") no-repeat center center/cover;
+    }
+    &.i1 {
+      background: url("../../img/rotten_tomatoes.jpg") no-repeat center
+        center/cover;
+    }
+    &.i2 {
+      background: url("../../img/metacritic.png") no-repeat center center/cover;
+    }
+  }
+  &__value {
+    text-align: center;
+    text-justify: center;
+    font-weight: 700;
+    font-size: $fs-h3;
+    color: $primary-color;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .results {
+    grid-template-columns: 1fr;
+  }
+}

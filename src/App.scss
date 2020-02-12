@@ -1,0 +1,29 @@
+@import "config";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: $fs-h1;
+}
+h3 {
+  font-size: $fs-h3;
+}
+small {
+  font-size: $fs-small;
+}
+
+.container {
+  width: 90%;
+  max-width: $max-width;
+  min-width: $min-width;
+  margin: auto;
+  padding: 0.5rem 1rem;
+}
